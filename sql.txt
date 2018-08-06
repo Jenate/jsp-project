@@ -1,0 +1,22 @@
+create database project;
+CREATE TABLE User1
+(
+Name varchar(255) NOT NULL,
+Email varchar(255) NOT NULL,
+Password varchar(255) NOT NULL,
+Age int NOT NULL,
+Gender varchar(255) NOT NULL,
+City varchar(255) NOT NULL,
+Movie varchar(255) NOT NULL,
+Profilepic varchar(255) default NULL,
+CONSTRAINT CHK_Person CHECK (Gender='male' or Gender ='Female')
+);
+
+INSERT INTO User1 VALUES('JENATE','jenate@gmail.com','jenate',21,'Female','mumbai','padmavat',null);
+
+INSERT INTO User1 VALUES('MANISHA','manisha@gmail.com','mansha',21,'Female','mumbai','conjuring',null);
+
+INSERT INTO User1 VALUES('PRAPTI','prapti@gmail.com','praps',21,'Female','mumbai','avengers',null);
+
+Select * from User1
+        
