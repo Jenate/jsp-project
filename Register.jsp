@@ -13,7 +13,10 @@ Age:<input type="text" name="age"/><br/><br/>
 Email:<input type="text" name="email"/><br/><br/>  
 Password:<input type="password" name="password"/><br/><br/>
 City:<input type="text" name="city"/><br/><br/> 
-Gender:<input type="text" name="gender"/><br/><br/> 
+Gender:<SELECT type="text" name="gender"/><br/><br/> 
+ <option value="male">MALE</option>
+    <option value="female">FEMALE</option>
+    <option value="other">OTHER</option>
 Favourite movie:<input type="text" name="favmovie"/><br/><br/>
 <input type="submit" value="Register"/> 
 </body>
